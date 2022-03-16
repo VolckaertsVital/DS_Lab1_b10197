@@ -6,8 +6,10 @@ public class Main {
 
         System.out.println("test");
 
-        Client client1 = new Client();
-        Server_side server1 = new Server_side();
+//        Client client1 = new Client();
+//        Server_side server1 = new Server_side();
+        UDPServer udp1 = new UDPServer();
+        udp1.run();
 
     }
 
